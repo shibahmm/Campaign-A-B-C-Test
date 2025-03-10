@@ -1,14 +1,10 @@
-# Marketing Campaign A/B Test
+# **A/B/C Testing in Media Tech: Optimizing In-App Promotions for User Engagement**
 
-A fast-food chain plans to add a new item to its menu. However, they are still undecided between three possible marketing campaigns for promoting the new product. In order to determine which promotion has the greatest effect on sales, the new item is introduced at locations in several randomly selected markets. A different promotion is used at each location, and the weekly sales of the new item are recorded for the first four weeks.
+A media tech company is testing three **in-app promotion designs** (A, B, C) to determine which maximizes user engagement across different user segments (New, Active, Dormant) and devices (smartphone, tablet, computer). Each promotion is randomly shown to users.
+The goal is to identify the optimal promotional strategy to improve session duration metric.
 
-So here am I, evaluating A/B testing results to decide which marketing strategy works the best.
-
-Dataset info (columns):
-MarketID: unique identifier for market
-MarketSize: size of market area by sales
-LocationID: unique identifier for store location
-AgeOfStore: age of store in years
-Promotion: one of three promotions that were tested
-week: one of four weeks when the promotions were run
-SalesInThousands: sales amount for a specific LocationID, Promotion, and week
+Metrics:
+- SessionDuration: continuous, minutes
+- UserSegment: New/Active/Dormant
+- Devices: smartphone/tablet/computer
+- In-app/UI/UX variants: pop-up/banner/embedded
