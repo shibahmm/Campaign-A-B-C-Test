@@ -8,3 +8,5 @@ Metrics:
 - UserSegment: New/Active/Dormant
 - Devices: smartphone/tablet/computer
 - In-app/UI/UX variants: pop-up/banner/embedded
+
+analysis.ipynb to view analysis
